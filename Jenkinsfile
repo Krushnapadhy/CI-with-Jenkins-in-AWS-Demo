@@ -28,7 +28,7 @@ pipeline {
 			steps {
 				script 
 				{
-					myimage = docker.build("eu.gcr.io/carbon-crossing-267321/krushnapadhy/myapp1gcr:${env.BUILD_ID}")
+					myimage = docker.build("eu.gcr.io/carbon-crossing-267321/k8-krushnapadhy-gcr/myapp1gcr:${env.BUILD_ID}")
 					
 				}
 			}
